@@ -27,7 +27,7 @@ phpMyAdmin:http://localhost:8080/
 ###dockerビルド  
 docker-compose up -d --build  
 
-###Laravel環境構築
+###Laravel環境構築  
 1.docker-compose exec php bash  
 2.composer install  
 3.env.exampleファイルから.envファイルを作成し、環境変数を変更  
