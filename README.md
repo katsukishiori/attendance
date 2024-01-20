@@ -7,7 +7,8 @@
 ある企業の人事評価の為
 
 ## アプリケーションURL  
-localhost/
+開発環境:http://localhost/  
+phpMyAdmin:http://localhost:8080/  
 
 ## 機能一覧  
 ログイン機能  
@@ -16,11 +17,15 @@ localhost/
 ページネーションで５件ずつ取得　　　　　　
 
 ## 使用技術（実行環境）  
-Laravel Framework 8.83.27  
+・PHP　8.2.12
+・Laravel 8.83.27  
 
 ## ER図  
 <img width="505" alt="スクリーンショット 2024-01-08 15 09 11" src="https://github.com/katsukishiori/attendance/assets/145991391/889b4201-c9b0-4aee-b424-3ef1f7fd4d7a">
 
-## 環境構築  
+## 環境構築
+#dockerビルド  
+docker-compose up -d --build
+
 
 
